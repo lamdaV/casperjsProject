@@ -8,8 +8,8 @@ page.open("https://prod11gbss8.rose-hulman.edu/BanSS/bwskfreg.P_AltPin", functio
 	
 	page.evaluate(function() {
 		console.log("logging in...")
-		document.querySelector("#UserID").value = "lamd";
-		document.querySelector("input[name='PIN']").value = "Doomlord500"
+		document.querySelector("#UserID").value = "xxxxxx";
+		document.querySelector("input[name='PIN']").value = "xxxxxxx" // Replace x's with valid data
 		document.querySelector("input[type='submit']").click();
 		console.log("login sucess");
 	});
